@@ -53,17 +53,17 @@
 
 // javascript objects are mutable
 
-const persion = {
-    name:{
-        firstName:"Tahirul",
-        lastName:"islam"
-    },
-    age:23,
-    city:"memari"
-}
-console.log(persion.city);
-persion.city = "kolkata"
-console.log(persion.city);
+// const persion = {
+//     name:{
+//         firstName:"Tahirul",
+//         lastName:"islam"
+//     },
+//     age:23,
+//     city:"memari"
+// }
+// console.log(persion.city);
+// persion.city = "kolkata"
+// console.log(persion.city);
 
 
 
