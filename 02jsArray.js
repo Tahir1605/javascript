@@ -47,7 +47,7 @@ for(let i = 0; i < arr3.length; i++)
 {
     if(arr3[i].name == myname)
     {
-        console.log("Age of ",arr3[i].name," is ",arr3[i].age);
+        console.log("Age of ",arr3[i].name," is ",arr3[i].age," and course is ",arr3[i].course);
         
     }
 }
