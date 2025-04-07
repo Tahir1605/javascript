@@ -65,6 +65,29 @@
 // persion.city = "kolkata"
 // console.log(persion.city);
 
+// Adding values in an object 
+// deleting values in an object
+
+// const persion = {
+//     name:{
+//         firstName:"Tahirul",
+//         lastName:"Islam"
+//     },
+//     age:23,
+//     city:"memari"
+// }
+
+// console.log(persion);
+// persion.course = "MCA"
+// console.log(persion);
+// delete persion.city
+// console.log(persion);
+// persion.address = "Burdwan"
+// console.log(persion);
+
+
+
+
 
 
 
