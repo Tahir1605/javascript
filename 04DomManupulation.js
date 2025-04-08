@@ -152,6 +152,26 @@
 // }
 
 
+// insert Before  example
+
+// Get the container and the reference element (second paragraph)
+
+
+const container = document.getElementById("container");
+const secondPara = document.getElementById("second");
+
+// Create a new paragraph
+
+
+const newPara = document.createElement("p");
+newPara.textContent = "🚀 I am inserted before the second paragraph!";
+newPara.style.color = "green";
+
+// Insert the new paragraph before the second one
+
+
+container.insertBefore(newPara, secondPara);
+
 
 
 
