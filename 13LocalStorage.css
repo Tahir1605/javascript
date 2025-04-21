@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: #212f3c;
+ }
+ .formContainer{
+    background-color: #34495e ;
+    padding: 20px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+ }
+ input{
+    border: none;
+    outline: none;
+    background-color: #5d6d7e;
+    width: 78%;
+    padding: 15px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+ }
+
+ #addBtn{
+    padding:10px 15px;
+    width: 20%;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1d8348;
+    color: white;
+ }
+ .todoHeading{
+    text-align: center;
+    color: white;
+ }
+ #todo{
+    background-color: #5d6d7e;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+ }
+ #todoText{
+    color: #1c2833 ;
+    font-weight: bold;
+ }
+ #delBtn,#updateBtn{
+    margin: 0px 5px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+   background-color: #4c5763;
+    
+ }
+ .inputBox{
+    margin: 20px 0px;
+ }
