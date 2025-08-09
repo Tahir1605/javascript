@@ -27,11 +27,13 @@
             // removeIt.parentNode.removeChild(removeIt)
         // })
 
-        document.getElementById("images").addEventListener('click',(e) => {
-            console.log(e.target.tagName);
-            if(e.target.tagName === "IMG")
-              {
-                let removeIt = e.target.parentNode
-                removeIt.remove()
-              }
-        })
+        // type,timestamp,defaultPrevent,target,toElement,srcElement,currentTarget,clientx,clienty,screenx,screeny,altkey,ctrlkey,shiftkey,keycode,stopPropagation
+
+        // document.getElementById("images").addEventListener('click',(e) => {
+        //     console.log(e.target.tagName);
+        //     if(e.target.tagName === "IMG")
+        //       {
+        //         let removeIt = e.target.parentNode
+        //         removeIt.remove()
+        //       }
+        // })
